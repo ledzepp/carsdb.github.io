@@ -1,6 +1,6 @@
 let myImage = document.querySelector('img');
 
-myImage.onmouseover = function () {
+myImage.ondblclick = function () {
     let mySrc = myImage.getAttribute('src');
     if (mySrc === 'images/website-image.jpg') {
         myImage.setAttribute('src', 'images/website-image-2.jpg')
