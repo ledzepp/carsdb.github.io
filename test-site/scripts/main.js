@@ -1,13 +1,13 @@
 let myImage = document.querySelector('img');
 
-myImage.ondblclick = function () {
+myImage.onclick = function () {
     let mySrc = myImage.getAttribute('src');
     if (mySrc === 'images/website-image.jpg') {
         myImage.setAttribute('src', 'images/website-image-2.jpg')
     }
 }
 
-myImage.onclick = function () {
+myImage.oncontextmenu = function () {
     let mySrc = myImage.getAttribute('src');
     if (mySrc === 'images/website-image-2.jpg') {
         myImage.setAttribute('src', 'images/website-image.jpg')
