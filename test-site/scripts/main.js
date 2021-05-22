@@ -1,25 +1,16 @@
 let myImage = document.querySelector('img');
 
-/* myImage.onclick = function () {
+myImage.ondblclick = function () {
     let mySrc = myImage.getAttribute('src');
     if (mySrc === 'images/website-image.jpg') {
         myImage.setAttribute('src', 'images/website-image-2.jpg')
     }
 }
 
-myImage.oncontextmenu = function () {
+myImage.onclick = function () {
     let mySrc = myImage.getAttribute('src');
     if (mySrc === 'images/website-image-2.jpg') {
         myImage.setAttribute('src', 'images/website-image.jpg')
-    }
-} */
-
-myImage.onkeydown = function (e) {
-    let mySrc = myImage.getAttribute('src');
-    if (mySrc === 'images/website-image.jpg' && e.keyCode === 39) {
-        myImage.setAttribute('src', 'images/website-image-2.jpg');
-    } else if (mySrc === 'images/website-image-2.jpg' && e.keyCode === 37) {
-        myImage.setAttribute('src', 'images/website-image.jpg');
     }
 }
 
