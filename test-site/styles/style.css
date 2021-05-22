@@ -1,0 +1,28 @@
+html {
+    background-color: #0a1a30;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 3px 1px darkblue;
+    color: aliceblue;
+  }
+  
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: azure;
+  }
+
+a {
+    color: whitesmoke;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+  }

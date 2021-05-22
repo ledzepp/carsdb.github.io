@@ -1,0 +1,7 @@
+CarsDB - All the cars!
+
+Welcome to CarsDB! Here you could find a metric based as well as review based information about all the cars you are looking to buy abd compare them as well.
+
+Here you could use filters to find out which car is the best in a particular price range, segment or based on your other specific needs.
+
+Please reach out to us if you are still not clear on which car you want to choose with your requirement and we would get back to you at the earliest :-)
